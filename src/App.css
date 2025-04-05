@@ -59,6 +59,7 @@ h2 {
   font-weight: 700;
   line-height: 1.2;
   margin: 1.5rem 0;
+  padding: 1rem;
   color: var(--dark-text);
   position: relative;
   transition: all 0.3s ease;
@@ -66,10 +67,13 @@ h2 {
 
 h2:hover {
   color: #ff6b6b;
+  cursor: auto;
+  padding:0px;
 }
 
 body {
   font-family: Arial;
+  padding:1px;
   line-height: 1.9;
 }
 
@@ -249,11 +253,12 @@ h3 {
 
 .about-list li {
   margin-bottom: 0.5rem;
+  padding:0rem;
 }
 
 .about-list li:hover {
   transition-property: transform;
-  padding: 0px;
+  padding: 0rem;
   cursor: auto;
   color: #60F400;
 }
@@ -416,6 +421,7 @@ h3 {
 }
 
 .hero-content {
+  padding: 1rem;
   max-width: 600px;
 }
 
