@@ -372,9 +372,18 @@ h3 {
   color: #2d3748;
 }
 
-.logo {
+.logo-container {
   font-size: 1.5rem;
   font-weight: 700;
+  width : 30%;
+  height: 30%;
+  object-fit: cover;
+  position : left;
+  pointer: cursor;
+  hover: auto;
+  border: 1px;
+  padding: 0px;
+  adjust: 0.5rem;
   color: #64ffda;
 }
 
@@ -478,6 +487,7 @@ h3 {
 
 .profile-image {
   max-width: 400px;
+  max-hieght: 300px;
   transition: transform 0.3s ease;
   object-fit: cover;
   aspect-ratio: 1;
